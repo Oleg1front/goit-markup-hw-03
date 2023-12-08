@@ -31,6 +31,12 @@ header {
   height: 73px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
+.container-header {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* /* navigation and address  */
 .navigation {
   display: flex;
