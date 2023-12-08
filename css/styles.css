@@ -8,9 +8,6 @@ p {
   margin: 0;
 }
 
-.container {
-  width: 100%;
-}
 body {
   color: #434455;
   background-color: #ffffff;
@@ -31,7 +28,7 @@ header {
   height: 73px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
-.container-header {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -168,13 +165,13 @@ header {
 .section-description {
   padding: 120px 0;
 }
-.discription {
-}
-
 .features {
   display: flex;
   gap: 24px;
   list-style-type: none;
+}
+.discription {
+  display: none;
 }
 
 .features-link {
@@ -219,6 +216,7 @@ header {
 .team-list {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 .team-card {
   background-color: #ffffff;
@@ -259,6 +257,26 @@ header {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  padding: 120px 0;
+}
+.section-4-name {
+  margin-bottom: 72px;
+  text-align: center;
+}
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+.container-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .app-name {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -268,6 +286,7 @@ header {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .app-type {
   color: var(--SLATE, #434455);
@@ -280,6 +299,7 @@ header {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -289,6 +309,20 @@ header {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+}
+.link-footer {
+  color: #4d5ae5;
+  margin-right: 76px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .studio-foot {
   color: #f4f4fd;
