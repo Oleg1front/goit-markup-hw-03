@@ -152,7 +152,7 @@ header {
   letter-spacing: 0.64px;
   cursor: pointer;
   display: block;
-  min-width: 196px;
+  min-width: 169px;
   height: 56px;
   border: none;
   background-color: #4d5ae5;
@@ -174,10 +174,12 @@ header {
 .features {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .features-link {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  list-style-type: none;
 }
 .feature-type {
   color: var(--NAVY-BLUE, #2e2f42);
