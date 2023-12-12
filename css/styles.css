@@ -48,13 +48,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 156px;
   margin-right: 332px;
 }
 .site-link {
-  display: inline-block;
+  display: flex;
   color: #4d5ae5;
-  margin-right: 76px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -62,10 +60,11 @@ header {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  width: auto;
+  margin-right: 76px;
 }
 .studio {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .nav-buttons {
