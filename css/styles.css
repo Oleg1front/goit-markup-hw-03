@@ -31,12 +31,19 @@ header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 /* /* navigation and address  */
+.container-header {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .navigation {
   display: flex;
   justify-content: center;
@@ -45,8 +52,7 @@ header {
   margin-right: 669px;
 }
 .site-link {
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   color: #4d5ae5;
   margin-right: 76px;
   font-family: Raleway, sans-serif;
@@ -102,10 +108,8 @@ header {
 }
 .address-list {
   display: flex;
-  flex-basis: auto;
   gap: 40px;
-}
-.address-link-parent {
+  list-style-type: none;
 }
 .address-link {
   color: var(--SLATE, #434455);
@@ -115,6 +119,8 @@ header {
   line-height: 24px;
   letter-spacing: 0.32px;
   list-style-type: none;
+  width: 153px;
+  height: 24px;
 }
 .address-link:hover {
   color: var(--OCEAN, #404bbf);
@@ -140,6 +146,8 @@ header {
   justify-content: center;
   align-items: center;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .button {
   background-color: var(--IRIS, #4d5ae5);
@@ -156,6 +164,7 @@ header {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .button:hover {
   background-color: #404bbf;
